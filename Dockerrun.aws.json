@@ -1,0 +1,23 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "811726520296.dkr.ecr.us-east-1.amazonaws.com/exploratory/dummyappaws:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 80,
+      "HostPort": 80
+    }
+  ],
+  "Environment": [
+    {
+      "Name": "ENV",
+      "Value": "production"
+    },
+    {
+      "Name": "PORT",
+      "Value": "80"
+    }
+  ]
+}
