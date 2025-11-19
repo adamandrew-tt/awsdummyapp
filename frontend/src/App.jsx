@@ -36,7 +36,7 @@ function App() {
       <h1 className="">Dummy App</h1>
       <div className="card flex justify-center">
         <button className="w-full" onClick={() => getRandN()}>
-          count is {randN}
+          Random number: {randN}
         </button>
       </div>
     </>
